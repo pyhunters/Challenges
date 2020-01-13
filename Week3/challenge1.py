@@ -1,9 +1,15 @@
 
 '''
 hello Dear hunters Todays' our challenge is : 
-
+Try to write program that counts from 0 to 10 using python 
 
 '''
+
+#------------------ @start:missx------------------------------
+
+print('count 0')
+
+#-------------------- @end:missx------------------------------
 
 
 
@@ -12,7 +18,9 @@ hello Dear hunters Todays' our challenge is :
 
 
 #-------------------- @end:zaid------------------------------
-
+for i in range(-1,10):
+    i+=1
+    print(i)
 
 
 #------------------ @start:hadeel------------------------------
