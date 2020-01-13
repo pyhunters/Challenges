@@ -7,7 +7,7 @@ Try to write program that counts from 0 to 10 using python
 
 #------------------ @start:missx------------------------------
 
-
+print('count 0')
 
 #-------------------- @end:missx------------------------------
 
