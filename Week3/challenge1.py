@@ -1,14 +1,31 @@
 
 '''
 hello Dear hunters Todays' our challenge is : 
-Try to write program that counts from 0 to 10 using python 
+
+Write a Python program to create the multiplication table (from 1 to 10) of a number that has been taken from the user . 
+
+أكتب برنامج يقوم بإنشاء جدول الضرب من 1 الى 10 لعدد يقوم بإدخاله المستخدم 
+
+مثال 
+
+input  
+6          
+output 
+                                             
+6 x 1 = 6                                                               
+6 x 2 = 12                                                              
+6 x 3 = 18                                                              
+6 x 4 = 24                                                              
+6 x 5 = 30                                                              
+6 x 6 = 36                                                              
+6 x 7 = 42                                                              
+6 x 8 = 48                                                              
+6 x 9 = 54                                                              
+6 x 10 = 60
 
 '''
 
-#------------------ @start:missx------------------------------
 
-
-#-------------------- @end:missx------------------------------
 
 
 
