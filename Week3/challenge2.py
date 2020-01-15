@@ -16,6 +16,26 @@ Number of odd numbers : 5
 
 #------------------ @start:zaid------------------------------
 
+n=[0,1,2,3,4,5,6,7,8,9,10]
+e=0
+o=0
+#use this—————————————————-
+i=0
+while i<len(n):
+  if (n[i]%2)==0 :
+    e+=1
+  else :
+    o+=1
+  i+=1
+  
+#or this——————————————————
+for m in range(len(n)):
+  if (n[m]%2)==0 :
+    e+=1
+  else :
+    o+=1
+  
+print(f"there are {e} even numbers, and {o} odd numbers in the domain [0,{len(n)-1}]")
 
 
 #-------------------- @end:zaid------------------------------
