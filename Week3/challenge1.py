@@ -31,6 +31,17 @@ output
 
 #------------------ @start:zaid------------------------------
 
+n=int(input("please insert the number you want to know its multiples:  "))
+#use this
+m=1
+while m<11:
+  print(f"{m}x{n}=  ",m*n)
+  m+=1
+  
+#or this
+  
+for i in range(1,11):
+  print(f"{i}x{n}=  ",i*n)
 
 
 #-------------------- @end:zaid------------------------------
