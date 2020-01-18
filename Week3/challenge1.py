@@ -31,15 +31,15 @@ output
 
 #------------------ @start:zaid------------------------------
 
+#using while loop
 n=int(input("please insert the number you want to know its multiples:  "))
-#use this
 m=1
 while m<11:
   print(f"{m}x{n}=  ",m*n)
   m+=1
-  
-#or this
-  
+ 
+#using for loop
+n=int(input("please insert the number you want to know its multiples:  "))
 for i in range(1,11):
   print(f"{i}x{n}=  ",i*n)
 
@@ -58,9 +58,19 @@ for i in range(1,11):
 
 
 #------------------ @start:khalid------------------------------
-
-
-
+a = int(input("Please enter a number to see it's multiplication table: \n"))
+while True:
+    print(f"{a} x 1 = {a} \n"
+          f"{a} x 2 = {a*2} \n"
+          f"{a} x 3 = {a*3} \n"
+          f"{a} x 4 = {a*4} \n"
+          f"{a} x 5 = {a*5} \n"
+          f"{a} x 6 = {a*6} \n"
+          f"{a} x 7 = {a*7} \n"
+          f"{a} x 8 = {a*8} \n"
+          f"{a} x 9 = {a*9} \n"
+          f"{a} x 10 = {a*10} \n")
+    break
 #-------------------- @end:khalid------------------------------
 
 
@@ -74,7 +84,11 @@ for i in range(1,11):
 
 #------------------ @start:ممدوح------------------------------
 
-
+num = int(input('Enter number: '))
+i=1
+while i < 11:
+    print(num, ' * ', i, ' = ', num * i)
+    i+=1
 
 #-------------------- @end:ممدوح------------------------------
 
