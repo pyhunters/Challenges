@@ -31,11 +31,18 @@ output
 
 #------------------ @start:zaid------------------------------
 
+#using while loop
 n=int(input("please insert the number you want to know its multiples:  "))
 m=1
 while m<11:
-  print(f"{m}x{n}=  ".format(),m*n)
+  print(f"{m}x{n}=  ",m*n)
   m+=1
+ 
+#using for loop
+n=int(input("please insert the number you want to know its multiples:  "))
+for i in range(1,11):
+  print(f"{i}x{n}=  ",i*n)
+
 
 #-------------------- @end:zaid------------------------------
 
