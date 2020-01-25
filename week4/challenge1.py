@@ -11,12 +11,19 @@ my_list = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
 '''
 #------------------ @start:zaid------------------------------
 
-
-
-
-
-
-
+L = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
+S=[]
+C=[]
+for i in L:
+  for z in i:
+    if z.isdigit():
+      S.append(z)
+S.sort()
+for x in S:
+  for y in L:
+    if x in y:
+      C.append(y)
+print("L=",C)
 
 #-------------------- @end:zaid------------------------------
 
