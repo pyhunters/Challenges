@@ -42,16 +42,21 @@ my_list = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
 
 #------------------ @start:khalid------------------------------
 
-
-
-
-
-
-
-
-
-
-
+bad_list = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
+good_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for t in bad_list:
+    for letter in t:
+        if letter.isdigit():
+            index_num = int(letter)
+            good_list[index_num] = t
+x = 0
+for item in good_list:
+    x +=1
+    try:
+        good_list.remove(x)
+    except:
+        continue
+print(good_list)
 
 #-------------------- @end:khalid------------------------------
 
