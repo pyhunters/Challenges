@@ -9,6 +9,18 @@ my_list = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
 ['HY0OH','IIUH1I','HKU3K','ER4TB','5JGU','I7YUI','KJI8TE','OPRE9']
 
 '''
+	
+#------------------ @start:missx------------------------------	
+
+my_list = ['HKU3K','KJI8TE','IIUHI','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
+
+my_list.sort(key=lambda x: int(''.join(filter(str.isdigit, x))))
+print(my_list)
+
+#------------------ @start:missx------------------------------
+
+
+
 #------------------ @start:zaid------------------------------
 
 L = ['HKU3K','KJI8TE','IIUH1I','I7YUI','OPRE9','5JGU','ER4TB','HY0OH']
