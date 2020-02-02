@@ -31,3 +31,15 @@ print(reverse(str_))
 
 
 
+@zaid
+
+def str(x):
+  m=""
+  i=-1
+  while i>=-len(x):
+    m=m+x[i]
+    i-=1
+  print(m)
+   
+t="1234abcd"
+str(t)
