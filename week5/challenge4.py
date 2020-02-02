@@ -28,3 +28,7 @@ def plnd(x):
     
 t=input("please insert your word to check if it is palindrome or not:  ")
 plnd(t)
+
+############## extra ################
+
+(lambda txt : print('palindrome') if txt == txt[::-1] else print('no palindrome')(input('Enter a word ')
