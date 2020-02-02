@@ -13,3 +13,18 @@ def palindrome(string):
 print(palindrome('خوخ'))
 True
 
+@zaid 
+
+def plnd(x):
+  y=""
+  i=-1
+  while i>=-len(x):
+    y=y+x[i]
+    i-=1
+  if y==x :
+    print(f"the word '{x}' is palindrome. ")
+  else:
+    print(f"the word '{x}' is not palindrome. ")
+    
+t=input("please insert your word to check if it is palindrome or not:  ")
+plnd(t)
